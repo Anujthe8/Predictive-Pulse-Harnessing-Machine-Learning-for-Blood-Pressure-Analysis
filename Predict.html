@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MEDICIO</title>
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #61c5c4;
+  padding: 15px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.header .logo h1 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.header .right-content {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+}
+
+.header .right-content a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header .right-content a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+  background: #fff;
+  margin-top: 10px;
+}
+
+.content .result-page {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content .result-content {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .footer {
+  font-size: 14px;
+  color: #61c5c4;
+  margin-top: 20px;
+}
+
+.content .footer p {
+  margin: 0;
+}
+
+.content .footer a {
+  color: #61c5c4;
+  text-decoration: none;
+}
+
+.content .footer a:hover {
+  text-decoration: underline;
+}
+
+.content .footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.content .footer .social-links a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: #61c5c4;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 5px;
+}
+</style>
+</head>
+<body>
+  <header class="header">
+       <div class="logo">
+           <div class="logo-color">
+               ⚕️
+           </div>
+           <div class="logo-text">
+               MEDICO
+           </div>
+       </div>
+    <div class="right-content">
+      <a href="#">Monday - Saturday, 8AM to 10PM</a>
+      <a href="#">Call us now +1 5589 55488 55</a>
+    </div>
+  </header>
+  <div class="content">
+    <div class="result-page">Result Page</div>
+    <div class="result-content">
+       <h1>{{ prediction_text }}</h1>
+    </div>
+    <div class="footer">
+      <p>Medicio</p>
+      <p>The Smart Bridge</p>
+      <p>Hyderabad, Telangana, India</p>
+      <p>Phone: +1 5589 55488 55</p>
+      <p>Email: info@example.com</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
